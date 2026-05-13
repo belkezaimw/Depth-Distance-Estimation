@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Wael\\\\Desktop\\\\depth estimation\" -Recurse -File)",
+      "Bash(Select-Object FullName)",
+      "Bash(Format-List)"
+    ]
+  }
+}

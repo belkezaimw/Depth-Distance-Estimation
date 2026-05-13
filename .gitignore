@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Models (large binary files)
+models/*.bin
+models/*.pt
+models/*.safetensors
+models/*/
+
+# Output images
+output/
+
+# Data files (track only via .gitkeep)
+data/dem/*.tif
+data/dem/*.tiff
+data/dem/*.hgt
+data/dem/*.img
+data/images/*
+!data/dem/.gitkeep
+!data/images/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
